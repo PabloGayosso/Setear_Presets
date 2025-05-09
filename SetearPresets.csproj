@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net472</TargetFramework>
+		<Platforms>x64</Platforms>
+		<RootNamespace>SetPresetMilestone</RootNamespace>
+		<AssemblyName>SetearPresets3</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="VideoOS.Platform">
+			<HintPath>.\DLLs\VideoOS.Platform.dll</HintPath>
+		</Reference>
+		<Reference Include="VideoOS.Platform.SDK">
+			<HintPath>.\DLLs\VideoOS.Platform.SDK.dll</HintPath>
+		</Reference>
+		<Reference Include="VideoOS.Platform.ConfigurationItems">
+			<HintPath>.\DLLs\VideoOS.Platform.ConfigurationItems.dll</HintPath>
+		</Reference>
+		<Reference Include="VideoOS.Platform.AccessControl">
+			<HintPath>.\DLLs\VideoOS.Platform.AccessControl.dll</HintPath>
+		</Reference>
+		<Reference Include="VideoOS.Platform.SDK.log">
+			<HintPath>.\DLLs\VideoOS.Platform.SDK.log.dll</HintPath>
+		</Reference>
+		<Reference Include="VideoOS.Platform.SDK.Media">
+			<HintPath>.\DLLs\VideoOS.Platform.SDK.Media.dll</HintPath>
+		</Reference>
+		<Reference Include="VideoOS.Platform.SDK.UI">
+			<HintPath>.\DLLs\VideoOS.Platform.SDK.UI.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+</Project>
